@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="download.js"></script>
+    <style>
+        body{
+            border:8px black dotted;
+            padding:100px;
+        }
+        h1{
+            text-align:center;
+        }
+        td{
+            padding:5px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .btn {
+            background-color: DodgerBlue;
+            border: none;
+            color: white;
+            padding: 12px 30px;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+            /* Darker background on mouse-over */
+            .btn:hover {
+                background-color: RoyalBlue;
+            }
+    </style>
+</head>
+<body>
+
+    <body bgcolor="aqua" font-color="red">
+        <form>
+
+            <table border='0' width='480px' cellpadding='0' cellspacing='0' align='center'>
+                <center>
+                    <tr>
+                        <td><h1>Download Report</h1></td>
+                    </tr><center>
+
+                        <table border='0' width='480px' cellpadding='0' cellspacing='0' align='center'>
+                            <tr>
+                                <td align='center'>PatientName:</td>
+                                <td><input id="name" type='text' name='name'></td>
+                            </tr>
+                            <tr> <td>&nbsp;</td> </tr>
+                            <tr>
+                                <td align='center'>Select Speciality</td>
+                                <td>
+                                    <select name='name'>
+                                        <option value=" nh">Allergists/Immunologists</option>
+                                        <option value=" nh">Anesthesiologists</option>
+                                        <option value=" nh">Cardiologists</option>
+                                        <option value=" nh">Dermatologists</option>
+                                        <option value=" nh">Endocrinologists</option>
+                                        <option value=" nh">Gastroenterologists</option>
+                                        <option value=" nh">Neurologists</option>
+                                        <option value=" nh"> Gynecologists</option>
+                                        <option value=" nh">Pediatricians</option>
+                                        <option value=" nh">Psychiatrists</option>
+
+
+                                </td>
+
+                            </tr>
+                            <tr> <td>&nbsp;</td> </tr>
+                            <tr>
+                                <td align='center'>Select from Doctor</td>
+                                <td>
+                                    <select name='name'>
+
+                                        <option value=" nh">Dr.Bhavesh Doshi</option>
+                                        <option value=" nh">Dr.Sanjiv Kumar</option>
+                                        <option value=" nh">Dr.Balipalli Ramesh</option>
+                                        <option value=" nh">Dr.Manish Kumar</option>
+                                        <option value=" nh">Dr.Mukesh Kumar</option>
+                                        <option value=" nh">Dr.Sandeep Jha</option>
+                                        <option value=" nh">Dr.Amey Pusalkar</option>
+                                        <option value=" nh"> Dr.Kashish Panchal</option>
+                                        <option value=" nh">Dr.Rohith Batra</option>
+                                        <option value=" nh">Dr.Sharma</option>
+
+                                </td>
+                            </tr>
+                            <tr> <td>&nbsp;</td> </tr>
+                            <tr>
+                                <td align='center'>Download Reports</td>
+                                <td>
+
+                                    <button class="btn" onclick="Check()"><i class="fa fa-download"></i> Download</button>
+                                </td>
+                            </tr>
+                            <tr> <td>&nbsp;</td> </tr>
+                            <table border='0' cellpadding='0' cellspacing='0' width='480px' align='center'>
+                            </table>
+                        </table>
+
+            </table>
+
+
+
+
+        </form>
+
+    </body>
+</html>

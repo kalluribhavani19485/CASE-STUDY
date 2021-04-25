@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="plogin.js"></script>
+    <link rel="stylesheet" href="plog.css" />
+    <style>
+        #img{
+            float:right;
+            margin-top:150px;
+            backface-visibility:hidden;
+        }
+    </style>
+
+</head>
+<body style="border:8px black groove;padding:90px">
+    <div id="img">
+        <img src="login.png" />
+
+    </div>
+    <h2>Patient Login</h2><br>
+    <div class="login">
+        <form >
+            <label>
+                <b>
+                    User Name
+                </b>
+            </label>
+            <input  type="text" name="Uname" id="Uname" placeholder="Username" required>
+            <br><br>
+            <label>
+                <b>
+                    Password
+                </b>
+            </label>
+            <input  type="Password" name="Pass" id="Pass" placeholder="Password" required>
+            <br><br>
+            <input type="submit" name="log" id="log" value="Log In Here" onclick="Check()">
+            <br><br>
+            <input type="checkbox" id="check">
+            <span>Remember me</span>
+            <br><br>
+            <a href="#">ForgotPassword</a>
+        </form>
+    </div>
+</body>
+
+
+</html>
